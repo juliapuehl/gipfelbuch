@@ -1,0 +1,58 @@
+main {
+    background: linear-gradient(45deg, rgb(83, 160, 160, 0.7), rgb(84, 135, 135));
+    padding: 2em;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 4px 4px rgb(58, 114, 114);
+    padding: 0;
+    margin: 0;
+}
+
+#tour-tagebuch-einträge ul {
+    width: 80%;
+    margin: 2em auto;
+    padding: 0px;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
+
+#tour-tagebuch-einträge li {
+    background-color: rgb(216, 216, 216);
+    border-radius: 8px;
+    box-shadow: 2px 4px 4px rgb(58, 114, 114);
+    overflow: hidden;
+}
+
+#tour-tagebuch-einträge li img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.tour-beschreibung-vorschau {
+    text-align: center;
+    padding: 0.5em 1em 1em 1em;
+    font-size: 14px;
+}
+
+#tour-tagebuch-einträge li a {
+    text-decoration: none;
+    color: rgb(0, 130, 130);
+    font-weight: bold;
+}
+
+#tour-tagebuch-einträge li a:hover {
+    text-decoration: none;
+    font-size: 16px;
+}
+
+h2 {
+    font-size: 18px;
+    text-align: center;
+    color: black;
+}
