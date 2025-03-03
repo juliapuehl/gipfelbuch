@@ -18,7 +18,7 @@ h1 {
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 2em;
+    gap: 2rem;
 }
 
 #tour-tagebuch-einträge li {
@@ -36,8 +36,8 @@ h1 {
 
 .tour-beschreibung-vorschau {
     text-align: center;
-    padding: 0.5em 1em 1em 1em;
-    font-size: 14px;
+    padding: 1rem;
+    font-size: 18px;
 }
 
 #tour-tagebuch-einträge li a {
@@ -52,7 +52,6 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
     text-align: center;
     color: black;
 }
